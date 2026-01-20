@@ -1,0 +1,69 @@
+16/01-26
+
+Teacher:
+Jawad Saleemi
+- Director AI (ruter and telenore)
+
+Lectures:
+- friday (physical)
+- monday (digital(for his classes))
+
+
+Making Application:
+- DJango(look what it is)
+
+example code:
+def Calculate_average(a,b,c):
+  total = a + b + c
+  average = total / 3
+  return average
+
+calculates average, (what does def mean?)  
+
+Environments:
+- python environments to isolate programs and see how different environments
+  reacts to the program. Environments: version of python, version of environments
+  etc.
+- they get isolated and self sustained, in the environment
+- if you dont have an environment, and you develop it anf you give it to someone else
+  and they have a different python for example. if it is not configured to run other 
+  environments, it will not run. and if it is configured, the environment travels with the 
+  code so anyone can access it.
+
+Pros: (Environments)
+- isolate projects
+- clean and reproducible
+- good practice (proffessionall)  
+
+
+To create and environment:
+python -m venv (name of new environment)
+
+for Windows:
+(navnet til environment\Scripts\activate
+for Mac:
+source (name of environment)\bin\activate
+
+
+creating an environment allows for changing code and importing extensions
+that do not affect the main code(computer), its basically docker without the extra steps
+
+
+Commando_line:
+ Id CommandLine
+  -- -----------
+   1 try { . "c:\Users\ingas\AppData\Local\Programs\Microsoft VS Code\reso...
+   2 venv\Scripts\activate
+   3 ls
+   4 python --version
+   5 where python
+   6 pwd
+   7 pwd python
+   8 find python
+   9 import pandas (opened python and tried importing, did not work because not installed)
+  10 pip install pandas (install it after exiting python)
+  11 python (open python, and can then import pandas and utilize it)
+
+
+
+  
