@@ -1,0 +1,17 @@
+DOCKER Tutorial:
+
+Main Concepts:
+- Docker Image
+- Docker Container
+
+Image: 
+- recipe, all ingredients and documents
+- technologies
+- everything you need
+
+Container:
+- where to run the code
+- what get made with the recipe
+
+if you have a image, you can make multiple containers based on the Docker Image.
+

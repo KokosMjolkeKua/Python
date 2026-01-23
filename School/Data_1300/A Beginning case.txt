@@ -1,0 +1,6 @@
+A Beginning case:
+1.find to read txt files
+2. count words or lines in it
+3. store the number somewhere
+4. sort them and store the sorted list somewhere
+5.get the top and the last lines

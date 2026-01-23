@@ -1,0 +1,23 @@
+Excersice 1 : DATA-1300
+#1:
+echo cd ~  -  echo (type) cd (path) ~ (tilde/all the way back)
+
+#2:
+cd /var/log - to go excactly to that path
+cd /root
+cd /workspace  - (same principle)
+
+#3:
+pwd - print path / where you are
+cd /var/log - go to this path
+ls - to see the content
+cd (to new path)
+pwd - print where you are
+
+#4:
+ls . -1   -  makes a list of what the contents are in your location
+cd /var/log/apt - go to apt directory
+ls . -1   - prints all contents of this folder
+
+
+
