@@ -1,0 +1,29 @@
+BASH MECHANICS:
+- currently using only bash to enter info into this notes
+- and only BASH to be sure it works
+
+BASH(git commands):
+- git status
+- git add .
+- git commit -m "Message"
+- git push
+- git merge
+
+- git init
+- git config
+
+Saving in Bash:
+- ctrl + S
+- ctrl + x
+
+
+SWITCH BRANCHES:
+- git checkout add_subtraction_branch
+- git branch (to see the amount of branches)
+- git status (see where you are)
+
+MERGINg:
+- git merge "name of branch"
+- will give error if they are similar
+(merge conflict because git doesnt know which one is correct)
+- 
