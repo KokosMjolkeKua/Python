@@ -1,0 +1,58 @@
+JSON vs. CSV:
+- extremely common in python
+
+CSV (commma seperated form):
+- values, seperated by commas
+- spreadsheets
+- flat and simple
+- no hierarchy
+
+JSON ()
+- hierarchy
+- neste and flexible
+- can have nested types
+ex:
+[
+    {"name":"Alice","age":30,"temp":37.5},
+    {"name":"Bob","age":25,"temp":36.8},
+]
+
+WHEN TO USE:
+- CSV: small files, tabular, fast processing, human readability
+- JSON: Nested structure(more complex), APIs, 
+    config files(application f eks that needs configurations), flexible schema
+    ex: (photo app, you need a config file to say how big it is, what its supposed to show, doesn
+    the app end when its this and this size)
+- Both: Human readability. no special tools needed 
+
+TO READ THE file
+with open('data.json','r') as f:
+data = json.load(f)
+
+TO Write
+with open('patient.csv','w',newline='') as f:
+writer = csv.write(f)
+
+
+FLAT JSON (simple):
+{"name":"Alice","temp":37.5}
+
+can use a JSON file as a database, (very simple)
+
+
+TO SEE THE COMANDS:
+- import json
+- dir(json)
+
+- import csv
+- dir(csv)
+
+
+- dir can be used for any datatypes to see what 
+- you can do with it .functions, class and otherwise
+
+
+USING dir and help:
+- use dir to see what exists 
+- and use help to figure out how you can do it(details)
+

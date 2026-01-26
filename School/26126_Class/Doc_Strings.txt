@@ -1,0 +1,14 @@
+DOC-Strings:
+- to help others to understand what your code does
+- docstring appears in the return statement of the help()
+ex:
+def greet(name):
+""" function to greet someone """
+print("Hello : ",name)
+
+greet("Jawad")
+
+#Output: hello Jawad
+
+help(greet)
+#output : """ function to greet someone """

@@ -1,0 +1,52 @@
+LEARNIG OBJECTIVES:
+- master if/else/elif
+- right data structure
+- JSON and CSV file format
+- how to Write prof docstrings
+- use type hints for code clarity
+- logging, how to apply for debugging and monitoring
+
+
+IF/ELIF/Else Basics
+- check example.py
+
+WHILE and FOR loop
+- if you know how long you want the list to be (For loop)
+- if you dont know?(while)
+
+
+List or Disct or structure
+- basically an array
+- O = "ORDER of complexity"
+- O(1) = "constant order"
+- O(n) = "Linear"
+- O(n^2) = 
+
+List:
+- ordered, duplicates allowed
+
+Dict: (dictionary)
+- Key-value pairs
+- super fast
+- hashable keys (takes only one lookup to get the right value)
+- unorderded (key value, so a key o each value)
+
+Set:
+- unique values(can only be diffrent)
+- also unorderded
+- lookup is the same as Dict(you only need one operation)
+- dont use if its important the order
+
+Depending on how you want to store the data, you want a different one
+- List if you need duplicates, and order in the files
+- Dict if you need flexibility and key value lookup, doesnt matter if its ordered
+-  they have different performance
+- List, it takes as many iterations as there are elements
+- Dict and Set take only one tep to find the item
+
+
+QUIZ:
+1. remove duplicates and check members quickly (use Set)
+2. look up patient info fast (Dict has value pairs and if fast, supposrts complex structure)
+3. order matters + duplicates allowed (List, ordered and allowa the same values)
+
