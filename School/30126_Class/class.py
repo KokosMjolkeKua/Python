@@ -84,3 +84,7 @@ def addition(a,b):
 
 print(addition(14,5))
 
+def test_add():
+    result = add(3,7)
+    assert result == 10
+    #to test if the code is correct
