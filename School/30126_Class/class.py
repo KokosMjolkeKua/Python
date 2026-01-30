@@ -53,3 +53,9 @@ name=4
 print(name)
 
 
+#Lists:
+temps:list[int]=[1,2,3] #if you put 3.3 you will get an error from pylance
+print(temps)
+
+
+
