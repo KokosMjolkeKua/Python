@@ -9,3 +9,14 @@ Docstring:
 Type-Hints:
 - you can tell python to put their sight on one datatype more than another
 - basically a hint to make sure there are no errors(syntax or otherwise)
+
+Logging:
+- writing what you are doiing
+- what the game is supposed to do
+- log information somewhere that you can access later, a library
+- stdout works well(terminal), as long as you are in the same environment
+- with logging you choose where the info end up 
+    levels, file output, timestamps, ddebug, info , warning, error, criical
+    proffessional apps use logging everywhere
+
+    

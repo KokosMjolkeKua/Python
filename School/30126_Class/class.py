@@ -59,3 +59,18 @@ print(temps)
 
 
 
+#Logging: How to use!
+import logging
+#Tell logging what you want to logg¨
+logging.basicConfig(
+    level=logging.DEBUG,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+
+logger=logging.getLogger(__name__)
+logger.debug("Starting application")
+logger.info("Patient loaded: Alice")
+logger.warning("Temperature above 38 degrees celsius!")
+
+
+
