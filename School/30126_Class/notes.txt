@@ -1,0 +1,11 @@
+DATA 1300:
+DocStrings & Type Hints
+
+Docstring:
+- text to help understand what goes on in the code
+- use it forward to show your thinking process
+- it should be possible to understand the function based on the DocStrings(for any human)
+
+Type-Hints:
+- you can tell python to put their sight on one datatype more than another
+- basically a hint to make sure there are no errors(syntax or otherwise)
