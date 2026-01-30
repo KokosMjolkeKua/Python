@@ -1,0 +1,5 @@
+TESTING:
+- when you are writing and coding
+- tests are important, manual and automated
+- tests help look at what goes wrong/if something goes wrong, 
+- also helps look for problems you didnt realize could occur

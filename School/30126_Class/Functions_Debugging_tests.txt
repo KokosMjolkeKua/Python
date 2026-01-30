@@ -21,3 +21,15 @@ Debugging:
 - see how the code works, where the program takes you
 - to see where things and misunderstandings could go wrong
 - "finding and fixing bugs in the code"
+
+Debug shortcut keys:
+Start/Continue	F5	Start debugging or, if paused, continue execution until the next breakpoint.
+Start Without Debugging	Ctrl + F5	Run code normally, without entering debug mode.
+Stop	Shift + F5	Terminate the current debugging session.
+Restart	Ctrl + Shift + F5	Stop and immediately restart debugging with the same configuration.
+Step Over	F10	Execute the current line and move to the next without stepping into function calls.
+Step Into	F11	Jump into the next function call in the current line of code.
+Step Out	Shift + F11	Jump out of the current function and return to the calling code's execution context.
+Toggle Breakpoint	F9	Add or remove a breakpoint on the current line.
+Toggle Inline Breakpoint	Shift + F9	Add an inline breakpoint at the current cursor position during a session.
+
