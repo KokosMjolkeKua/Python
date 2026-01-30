@@ -63,14 +63,17 @@ print(temps)
 import logging
 #Tell logging what you want to logg¨
 logging.basicConfig(
-    level=logging.DEBUG,
+    level=logging.DEBUG,#This makes you decide what level you start on
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
+
+#The levels start at DEBUG, then info,warning,error,critical.
 
 logger=logging.getLogger(__name__)
 logger.debug("Starting application")
 logger.info("Patient loaded: Alice")
 logger.warning("Temperature above 38 degrees celsius!")
+logger.error("Database connection failed")
 
 
 
