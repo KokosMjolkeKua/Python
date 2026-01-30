@@ -1,0 +1,23 @@
+Functions:
+- to do someting in your code that can be called
+- you dont have to write it more than on e time 
+- if you are writing a function, you can define it
+    making it universal for that command
+- its a promise between user and writer, making it understandable
+    between the two 
+
+    TypeHint + DocStrings = Contract
+    (makes it easily understandable)        
+
+WHY contracts matter:
+- Predictability
+- testability
+- reausability
+- debugging
+(makes everything easier, more oversiktlig)
+
+
+Debugging:
+- see how the code works, where the program takes you
+- to see where things and misunderstandings could go wrong
+- "finding and fixing bugs in the code"

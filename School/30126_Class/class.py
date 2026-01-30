@@ -77,3 +77,10 @@ logger.error("Database connection failed")
 
 
 
+def addition(a,b):
+    result= a+b
+    print(result)
+    return result
+
+print(addition(14,5))
+
